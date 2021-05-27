@@ -7,9 +7,9 @@ public class Moyenne
 {
     public static void main(String[] args) 
     {
-        int a;
-        int b;
-        float resultat;
+        int a; 
+        int b; 
+        float resultat; 
 
         System.out.println("Calcul de la moyenne de 2 nombres.");
 
