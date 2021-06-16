@@ -15,11 +15,13 @@ public class App
 
         double flottant64bits;
 
-        valeurAConvertir = "13.37";
+        valeurAConvertir = "42";
 
         entier32bits = Integer.parseInt(valeurAConvertir); // conversion d'un String vers un entier 32bits
 
         entier64bits = Long.parseLong(valeurAConvertir);  // conversion d'un String vers un entier 64bits
+
+        valeurAConvertir = "13.37";
 
         flottant32bits = Float.parseFloat(valeurAConvertir);  // conversion d'un String vers un flottant 32bits
 
