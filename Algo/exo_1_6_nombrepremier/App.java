@@ -2,20 +2,21 @@ package exo_1_6_nombrepremier;
 
 import java.util.Scanner;
 
-public class App {
+public class App 
+{
     public static void main_example(String[] args) {
         
         int numberToTest = 0;
         int divisetoTestNumber = 2;
-        Boolean isNumberFirst = false;
+        Boolean isNumberFirst = true;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Veuillez entrer un nombre pour vérifier si il est premier :");
         numberToTest = scanner.nextInt();
 
-        while (divisetoTestNumber < numberToTest) {
+        while (divisetoTestNumber < numberToTest && isNumberFirst) {
             if (!(numberToTest % divisetoTestNumber == 0)) {
-                isNumberFirst = true;
+                isNumberFirst = false;
             }
 
             divisetoTestNumber++;
@@ -48,7 +49,7 @@ public class App {
 
         num2test = Math.abs(num2test);
 
-        while(divise < num2test) {
+        while(divise < num2test && first) {
             first = (num2test % divise++ != 0);
         }
 
