@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Algo",
-        "demo"
+        "demo",
+        "Objet"
     ]
 }
