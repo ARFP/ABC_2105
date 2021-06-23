@@ -4,20 +4,13 @@ public class App {
     
     public static void main(String[] args) 
     {
-        Animal animal = new Animal();
+        Animal bee = new Animal();
+        Animal horse = new Animal();
 
-        animal.feed();
+        bee.setSpecie("Abeille");
+        horse.setSpecie("Cheval");
 
-
-
-        Animal bee = new Animal("abeille");
-
-        bee.feed();
-
-
-
-        Dog dog = new Dog();
-
-        dog.feed();
+        System.out.println(bee.getSpecie());
+        System.out.println(horse.getSpecie());
     }
 }

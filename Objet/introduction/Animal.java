@@ -4,18 +4,29 @@ public class Animal
 {
     private String specie;
 
-    public Animal()
+
+    public Animal() 
     {
-        this("animal");
+        System.out.println("constructeur de Animal");
+
+        this.specie = "Insecte";
     }
-    
-    public Animal(String _specie) 
+
+    public String getSpecie() 
     {
-        this.specie = _specie;
+        return this.specie;
+    }
+
+    public void setSpecie(String toto) 
+    {
+        if(toto.length() > 2) {
+            this.specie = toto;
+        }  
     }
 
     public void feed() 
     {
-        System.out.println(this.specie + " mange sa nourriture !");
+        System.out.println(this.specie + "mange ! ");
     }
+
 }
