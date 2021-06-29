@@ -4,12 +4,11 @@ public class Animal
 {
     private String specie;
 
-
-    public Animal() 
+    public Animal(String _specie) 
     {
         System.out.println("constructeur de Animal");
 
-        this.specie = "Insecte";
+        this.specie = _specie;
     }
 
     public String getSpecie() 
@@ -17,16 +16,14 @@ public class Animal
         return this.specie;
     }
 
-    public void setSpecie(String toto) 
-    {
-        if(toto.length() > 2) {
-            this.specie = toto;
-        }  
-    }
-
     public void feed() 
     {
         System.out.println(this.specie + "mange ! ");
+    }
+
+    public void move() 
+    {
+        System.out.println(this.specie + " se déplace.");
     }
 
 }
