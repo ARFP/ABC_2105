@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Algo",
         "demo",
-        "Objet"
+        "Objet",
+        "swing"
     ]
 }
