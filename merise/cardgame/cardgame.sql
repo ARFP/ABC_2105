@@ -16,5 +16,21 @@ CREATE TABLE IF NOT EXISTS players
 );
 
 
+INSERT INTO players 
+(player_nickname, player_lastname, player_firstname, player_email) 
+VALUES 
+('Roger', 'DEV', 'Mike', 'a@a.fr'),
+('Robert', 'MARTIN', 'Julie', 'b@b.fr'),
+('Daguette', 'DUPONT', 'Axelle', 'c@c.fr'),
+('Fifille', 'DUPOND', NULL, 'd@d.fr');
+
+
+
+INSERT INTO players 
+(player_email, player_nickname, player_lastname, player_firstname) 
+VALUES 
+('aaaa@a.fr', 'Georges', 'DEV', 'Mike');
+
+
 
 
